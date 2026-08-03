@@ -1,0 +1,6 @@
+{
+  "name": "Brewnet Cafe",
+  "description": "A modern, responsive cafe ordering system featuring menu browsing, item customization, cart management, QR table ordering, and order tracking with Firebase backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

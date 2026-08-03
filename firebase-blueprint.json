@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "menu_items": {
+      "title": "Menu Item",
+      "description": "Cafe food and beverage items available for order",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "imageUrl": { "type": "string" },
+        "isPopular": { "type": "boolean" },
+        "dietary": { "type": "array", "items": { "type": "string" } },
+        "available": { "type": "boolean" }
+      },
+      "required": ["id", "name", "category", "price", "available"]
+    },
+    "orders": {
+      "title": "Order",
+      "description": "Customer orders placed in the cafe",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "orderType": { "type": "string" },
+        "tableNumber": { "type": "string" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "tax": { "type": "number" },
+        "tip": { "type": "number" },
+        "totalPrice": { "type": "number" },
+        "status": { "type": "string" },
+        "paymentMethod": { "type": "string" },
+        "qrCodeData": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "required": ["userId", "items", "totalPrice", "status", "createdAt"]
+    },
+    "users": {
+      "title": "User Profile",
+      "description": "Customer profiles and rewards",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "rewardPoints": { "type": "number" },
+        "role": { "type": "string", "enum": ["customer", "staff"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid"]
+    }
+  }
+}
