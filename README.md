@@ -8,8 +8,20 @@ Customers can scan a table QR code, browse the digital menu, place orders, track
 
 https://brewnet-cafe.vercel.app
 
-## Application Preview
-![BrewNet Cafe Application](Screenshot%202026-08-03%20233654.png)
+## 📸 Project Screenshots
+
+### 🏠 Customer Menu
+![BrewNet Cafe Customer Menu](Screenshot%202026-08-03%20233654.png)
+
+### 👨‍🍳 Barista Board
+![BrewNet Cafe Barista Board](Screenshot%202026-08-04%20123422.png)
+
+### 📱 Real-Time Order Tracking
+![BrewNet Cafe Order Tracking](Screenshot%202026-08-04%20123729.png)
+
+### 📲 Table QR Ordering
+![BrewNet Cafe Table QR](Screenshot%202026-08-04%20123851.png)
+
 
 ## ✨ Features
 
